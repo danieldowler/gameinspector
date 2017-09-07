@@ -112,7 +112,7 @@ var $GI = (function () {
     }
 
     function init() {
-        $('#details').append(`Get to know`);
+        $('#details').append(`<h1>What to Know Before you Roll</h1> <p>Welcome to my need to know before your roll assistant. This site is designed to answer all your questions about various races, ability scores, and skills you may want to know before you nail down the specifics for that newest Dungeons and Dragons character.</p>`);
     }
 
     function raceDetailCallback(data) {
